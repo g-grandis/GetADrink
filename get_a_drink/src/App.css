@@ -1,11 +1,11 @@
 .container {
-    height: 100px;
+    height: 50px;
     position: relative;
-    border: 1px solid grey;
+    border: 0px solid grey;
   }
   .container2 {
     position: relative;
-    border: 1px solid grey;
+    border: 0px solid grey;
     align-items: center;
     text-align: center;
   }

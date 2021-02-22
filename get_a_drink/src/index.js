@@ -39,7 +39,7 @@ getDrink = async () =>{
                     <div class="text">
                         <h2>{this.state.drinkName}</h2>
                         <img class="img"src={this.state.drinkImg}></img>
-                        <h4>Drink category: {this.state.drinkCategory}</h4>
+                        <h4>{this.state.drinkCategory}</h4>
                     </div>
                 </div>
             </div>
