@@ -1,0 +1,36 @@
+.container {
+    height: 100px;
+    position: relative;
+    border: 1px solid grey;
+  }
+  .container2 {
+    position: relative;
+    border: 1px solid grey;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .center2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .img {
+      height: 200;
+      width:200px;
+      top: 50%;
+      left: 50%;
+
+
+  }
