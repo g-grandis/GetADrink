@@ -1,7 +1,7 @@
 import './App.css'; 
 import React from "react"
 import ReactDOM from "react-dom"
-
+import background from "./hulu-milano.jpg";
 
 class App extends React.Component{
 constructor(props){
@@ -36,7 +36,7 @@ getDrink = async () =>{
                         </div>
                 </div>
                 <div class="container2">
-                    <div class="">
+                    <div class="text">
                         <h2>{this.state.drinkName}</h2>
                         <img class="img"src={this.state.drinkImg}></img>
                         <h4>Drink category: {this.state.drinkCategory}</h4>

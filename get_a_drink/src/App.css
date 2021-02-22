@@ -34,3 +34,11 @@
 
 
   }
+body {
+    background-image: url(./hulu-milano.jpg);
+}
+.text {
+    color : cyan;
+    text-shadow: 2px 2px 5px black;
+    font-family: "Lucida Handwriting", cursive;
+}
